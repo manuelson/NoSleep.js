@@ -192,7 +192,6 @@ var NoSleep = function () {
           });
         }).catch(function (err) {
           _this2.enabled = false;
-          console.error(err.name + ", " + err.message);
           throw err;
         });
       } else if (oldIOS()) {
